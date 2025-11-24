@@ -90,7 +90,7 @@ const Work = () => {
 
                 {/* Action Buttons */}
                 <div className="flex gap-3 pt-2">
-                  <a
+                  {/* <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -99,7 +99,7 @@ const Work = () => {
                   >
                     <FaGithub className="inline mr-2" />
                     Code
-                  </a>
+                  </a> */}
                   <a
                     href={project.webapp}
                     target="_blank"

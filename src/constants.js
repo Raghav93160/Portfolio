@@ -23,11 +23,9 @@ import bcaLogo from './assets/education_logo/bcalogo.png';
 import rwLogo from './assets/education_logo/r&w.png';
 
 // Project Section Logo's
-import blogLogo from './assets/work_logo/blog.png';
-import gym from "./assets/work_logo/gym.png";
-import margo from './assets/work_logo/margo.png';
+import health from './assets/work_logo/health.png';
+import nobel from './assets/work_logo/nobel.png';
 import onyx from "./assets/work_logo/onyx.png";
-import service from "./assets/work_logo/service.png";
 
 
 
@@ -176,44 +174,44 @@ export const SkillsInfo = [
 },
     {
       id: 2,
-      title: "React Blog App with JSON API, Search, Filters & Author View",
+      title: "Noble Children Hospital & Neonatal Centre – Caring for Your Little Ones",
       description:
-        "A React-based blog app using db.json as a mock API, featuring search, filter, and author-specific blog viewing functionality.",
-      image: blogLogo,
+        "Noble Children Hospital & Neonatal Centre Website is a fully responsive React-based healthcare website designed for a pediatric and neonatal hospital. The site provides parents with complete information about hospital services, treatments, doctors, gallery, and contact details—presented in a clean and user-friendly UI.",
+      image: nobel,
       tags: ["React JS"],
-      github: "https://github.com/Raghav93160/Fetching-Blog-data-",
-      webapp: "https://csprep.netlify.app/",
+      // github: "https://github.com/Raghav93160/Fetching-Blog-data-",
+      webapp: "https://www.noblechildrenhospital.com/",
     },
     {
       id: 3,
-      title: "React E-commerce App with Firebase Auth, Search & Cart",
+      title: "HealthCare Plus: Family Medical Center",
       description:
-        "A full-featured React e-commerce website with Firebase authentication, product search & filter, and add-to-cart functionality for seamless shopping experience.",
-      image: margo,
+        "Professional Healthcare Website - A clean, modern React-based medical website featuring emergency care booking, specialist services, and patient statistics with a responsive design for family healthcare needs.",
+      image: health,
       tags: ["React JS", "API"],
-      github: "https://github.com/Raghav93160/Margo-Ecomerce-Using-React",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
+      // github: "https://github.com/Raghav93160/Margo-Ecomerce-Using-React",
+      webapp: "https://www.bhagwatihospital.co/",
     },
-    {
-      id: 4,
-      title: "Gym Website",
-      description:
-        "A simple React-based gym website showcasing services, trainers, and fitness programs with responsive UI for smooth user experience.",
-      image: gym,
-      tags: ["React JS"],
-      github: "https://github.com/Raghav93160/gym-website",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-    {
-      id: 4,
-      title: "MERN Stack Services Website",
-      description:
-        "A full-stack services website built with MongoDB, Express.js, React, and Node.js (MERN). Features dynamic service listings, responsive UI, and smooth navigation for showcasing company services.",
-      image: service,
-      tags: ["React JS", "Node.js", "Express.js", "Mongodb"],
-      github: "https://github.com/Raghav93160/DevAutomation",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
+    // {
+    //   id: 4,
+    //   title: "Gym Website",
+    //   description:
+    //     "A simple React-based gym website showcasing services, trainers, and fitness programs with responsive UI for smooth user experience.",
+    //   image: gym,
+    //   tags: ["React JS"],
+    //   // github: "https://github.com/Raghav93160/gym-website",
+    //   webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    // },
+    // {
+    //   id: 4,
+    //   title: "MERN Stack Services Website",
+    //   description:
+    //     "A full-stack services website built with MongoDB, Express.js, React, and Node.js (MERN). Features dynamic service listings, responsive UI, and smooth navigation for showcasing company services.",
+    //   image: service,
+    //   tags: ["React JS", "Node.js", "Express.js", "Mongodb"],
+    //   // github: "https://github.com/Raghav93160/DevAutomation",
+    //   webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    // },
     // {
     //   id: 3,
     //   title: "Email Validator NPM Package",
