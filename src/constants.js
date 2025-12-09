@@ -6,12 +6,12 @@ import githubLogo from './assets/tech_logo/github.png';
 import htmlLogo from './assets/tech_logo/html.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import mcLogo from './assets/tech_logo/mc.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
+import wordpressLogo from './assets/tech_logo/wordpressLogo.jpg';
 
 // Experience Section Logo's
 import agcLogo from './assets/company_logo/agc_logo.png';
@@ -49,7 +49,7 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
+      { name: 'Wordpress', logo: wordpressLogo },
     ],
   },
   // {
